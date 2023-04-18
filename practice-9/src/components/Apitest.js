@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from "react"
 
-function Apitest() {
+const Apitest = () => {
+  const [data, setData] = useState([])
+
   return (
-    <div>Hello World</div>
+    <>
+      <button onClick={() => console.log("Button Works")}>Fetch Random</button>
+    </>
   )
 }
 
