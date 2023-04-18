@@ -4,8 +4,9 @@ body {
 
 .App {
   display: flex;
+  flex-direction: row;
   margin: 10rem auto;
-  max-width: 70%;
+  width: 70%;
   justify-content: center;
   border: 5px black solid;
 }
