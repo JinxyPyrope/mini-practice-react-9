@@ -1,4 +1,4 @@
-.btnData {
+/* .btnData {
   padding: 15px 25px;
   font-size: 24px;
   text-align: center;
@@ -9,4 +9,24 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+} */
+
+.data__container {
+  display: flex;
+  flex-direction: column;
+  border: 5px black solid;
+  max-width: 50%;
+  justify-content: center;
+}
+
+.data__container img {
+  border: 5px black solid;
+}
+
+.data__container h4 {
+  border: 3px black solid;
+}
+
+.data__container p {
+  border: 5px black solid;
 }
