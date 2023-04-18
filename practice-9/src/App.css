@@ -1,8 +1,11 @@
+body {
+  background-color: lightgreen;
+}
+
 .App {
   display: flex;
   margin: 10rem auto;
   max-width: 70%;
-  align-items: stretch;
   justify-content: center;
-  background-color: lightgreen;
+  border: 5px black solid;
 }

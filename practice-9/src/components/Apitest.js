@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
+import "./Apitest.css"
 
 const Apitest = () => {
-  const [data, setData] = useState([])
+  // const [data, setData] = useState([])
 
-  return (
-    <>
-      <button onClick={() => console.log("Button Works")}>Fetch Random</button>
-    </>
-  )
+  return <div>Hello World</div>
 }
 
 export default Apitest
