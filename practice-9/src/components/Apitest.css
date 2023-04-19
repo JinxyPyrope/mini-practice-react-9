@@ -11,10 +11,9 @@
   box-shadow: 0 9px #999;
 } */
 
-.data__container {
+.data__card-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   width: 25%;
   height: 400px;
   padding: 10px;
@@ -23,15 +22,22 @@
   border-radius: 10px;
 }
 
-.data__container img {
+.data_card-container__front-end {
+  display: flex;
+  height: 350px;
+  flex-direction: column;
   border: 1px black solid;
-  height: 60%;
+  
 }
 
-.data__container h4 {
+.data_card-container__front-end img {
   border: 1px black solid;
 }
 
-.data__container p {
+.data_card-container__front-end h4 {
+  border: 1px black solid;
+}
+
+.data_card-container__front-end p {
   border: 1px black solid;
 }
