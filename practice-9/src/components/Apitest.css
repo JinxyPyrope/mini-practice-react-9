@@ -12,10 +12,9 @@
 } */
 
 .data__card-container {
-  display: flex;
-  justify-content: flex-end;
-  width: 25%;
-  height: 400px;
+  flex-direction: column;
+  max-width: 30%;
+  height: 25rem;
   padding: 10px;
   margin: 20px;
   border: 1px black solid;
@@ -24,13 +23,16 @@
 
 .data_card-container__front-end {
   display: flex;
-  height: 350px;
   flex-direction: column;
+  /* align-items: center; */
+  height: fit-content;
+  justify-content: center;
   border: 1px black solid;
-  
 }
 
 .data_card-container__front-end img {
+  margin: 3rem auto;
+  max-height: 150px;
   border: 1px black solid;
 }
 
