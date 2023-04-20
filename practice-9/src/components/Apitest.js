@@ -2,10 +2,20 @@ import React, { useState, useEffect } from "react"
 import "./Apitest.css"
 
 const Apitest = () => {
-  // const [data, setData] = useState(null)
+  const [users, setUsers] = useState([])
+
+  const fetchUserData = () => {
+    fetch("https://random-data-api.com/api/users/random_user?size=10")
+      .then(response => {
+        return response.json()
+      })
+      .then(data => {
+        setUsers(data)
+      })
+  }
 
   useEffect(() => {
-    
+    fetchUserData()
   })
 
   return (
