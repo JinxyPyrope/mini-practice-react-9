@@ -6,17 +6,17 @@ const Apitest = () => {
 
   const fetchUserData = () => {
     fetch("https://random-data-api.com/api/users/random_user?size=10")
-      .then(response => {
-        return response.json()
+      .then(res => {
+        return res.json()
       })
       .then(data => {
-        setUsers(data)
+        console.log(data)
       })
   }
 
   useEffect(() => {
     fetchUserData()
-  })
+  }, [])
 
   return (
     <div className="data__card-container">
