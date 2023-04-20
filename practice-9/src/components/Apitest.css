@@ -32,8 +32,8 @@
 
 .data_card-container__front-end img {
   margin: 3rem auto;
-  max-height: 150px;
   border: 1px black solid;
+  
 }
 
 .data_card-container__front-end h4 {

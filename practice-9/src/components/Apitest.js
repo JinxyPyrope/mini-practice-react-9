@@ -1,12 +1,18 @@
-import React, { useEffect } from "react"
+import React, { useState, useEffect } from "react"
 import "./Apitest.css"
 
 const Apitest = () => {
-  // const [data, setData] = useState([])
+  // const [data, setData] = useState(null)
 
-  // useEffect(() => {
-
-  // })
+  useEffect(() => {
+    fetch("https://random-data-api.com/api/users/random_user?size=10")
+      .then(data => {
+        return data.json()
+      })
+      .then(post => {
+        console.log(post.first_name)
+      })
+  })
 
   return (
     <div className="data__card-container">
@@ -15,7 +21,7 @@ const Apitest = () => {
         <h4>Testing Title</h4>
         <p>Testing Text</p>
       </div>
-      <div className="data_card-container__back-end"></div>
+      {/* <div className="data_card-container__back-end"></div> */}
     </div>
   )
 }
