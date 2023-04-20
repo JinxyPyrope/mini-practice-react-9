@@ -5,13 +5,7 @@ const Apitest = () => {
   // const [data, setData] = useState(null)
 
   useEffect(() => {
-    fetch("https://random-data-api.com/api/users/random_user?size=10")
-      .then(data => {
-        return data.json()
-      })
-      .then(post => {
-        console.log(post.first_name)
-      })
+    
   })
 
   return (
