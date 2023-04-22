@@ -11,7 +11,9 @@ const Apitest = () => {
       })
       .then(data => {
         console.log(data)
+        setUsers({ data })
       })
+      .catch(error => console.log(error))
   }
 
   useEffect(() => {
@@ -21,9 +23,12 @@ const Apitest = () => {
   return (
     <div className="data__card-container">
       <div className="data_card-container__front-end">
-        <img alt="test" title="More Information Here" />
+        {users.map((list, index) => (
+          <img  src={list.avatar} alt="test" title="More Information Here" />
+        ))}
+        {/* <img alt="test" title="More Information Here" />
         <h4>Testing Title</h4>
-        <p>Testing Text</p>
+        <p>Testing Text</p> */}
       </div>
       {/* <div className="data_card-container__back-end"></div> */}
     </div>
