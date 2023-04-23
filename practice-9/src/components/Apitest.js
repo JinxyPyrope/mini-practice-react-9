@@ -23,7 +23,8 @@ const Apitest = () => {
       })
       .then(data => {
         setUsers(data)
-        Object.entries(users).map(x => console.log(x))
+        console.log(users)
+        // Object.entries(users).map(x => console.log(x))
       })
       .catch(error => console.log(error))
   }, [users])
@@ -31,12 +32,9 @@ const Apitest = () => {
   return (
     <div className="data__card-container">
       <div className="data_card-container__front-end">
-        {/* {Object.entries(users).map((list, index) => (
-          <img src={list.avatar} alt="test" title="More Information Here" />
-        ))} */}
-        {/* <img alt="test" title="More Information Here" />
+        <img alt="test" title="More Information Here" />
         <h4>Testing Title</h4>
-        <p>Testing Text</p> */}
+        <p>Testing Text</p>
       </div>
       {/* <div className="data_card-container__back-end"></div> */}
     </div>
