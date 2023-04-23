@@ -16,18 +16,18 @@ const Apitest = () => {
   //     .catch(error => console.log(error))
   // }
 
-  useEffect(() => {
-    fetch("https://random-data-api.com/api/users/random_user?size=10")
-      .then(res => {
-        return res.json()
-      })
-      .then(data => {
-        setUsers(data)
-        console.log(users)
-        // Object.entries(users).map(x => console.log(x))
-      })
-      .catch(error => console.log(error))
-  }, [users])
+  // useEffect(() => {
+  //   fetch("https://random-data-api.com/api/users/random_user?size=10")
+  //     .then(res => {
+  //       return res.json()
+  //     })
+  //     .then(data => {
+  //       setUsers(data)
+  //       console.log(users)
+  //       // Object.entries(users).map(x => console.log(x))
+  //     })
+  //     .catch(error => console.log(error))
+  // }, [users])
 
   return (
     <div className="data__card-container">
