@@ -29,6 +29,21 @@ const Apitest = () => {
   //     .catch(error => console.log(error))
   // }, [users])
 
+  const fetchUserData = () => {
+    fetch("https://random-data-api.com/api/users/random_user?size=10")
+      .then(res => {
+        return res.json()
+      })
+      .then(data => {
+        setUsers(JSON.stringify(data))
+        console.log(users)
+      })
+  }
+
+  useEffect(() => {
+    fetchUserData()
+  })
+
   return (
     <div className="data__card-container">
       <div className="data_card-container__front-end">
