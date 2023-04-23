@@ -35,9 +35,10 @@ const Apitest = () => {
         return res.json()
       })
       .then(data => {
-        setUsers(JSON.stringify(data))
+        setUsers(data)
         console.log(users)
       })
+      .catch(error => console.log(error))
   }
 
   useEffect(() => {
