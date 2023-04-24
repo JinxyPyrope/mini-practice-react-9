@@ -2,10 +2,7 @@ import "./App.css"
 import Apitest from "./components/Apitest"
 import React, { useState, useEffect } from "react"
 
-
-
 function App() {
-
   const [users, setUsers] = useState([])
 
   useEffect(() => {
@@ -19,11 +16,10 @@ function App() {
       })
   }, [])
 
-  
   return (
     <div className="App">
-      <Apitest />
-      
+      <Apitest users={users} />
+      <Apitest users={users} />
     </div>
   )
 }
