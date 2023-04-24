@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Apitest users={users} />
-      <Apitest users={users} />
+      
     </div>
   )
 }

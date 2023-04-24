@@ -1,17 +1,5 @@
-/* .btnData {
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #04aa6d;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-} */
-
 .data__card-container {
+  display: block;
   flex-direction: column;
   max-width: 30%;
   height: 25rem;
@@ -19,6 +7,7 @@
   margin: 20px;
   border: 1px black solid;
   border-radius: 10px;
+  overflow: auto;
 }
 
 .data_card-container__front-end {

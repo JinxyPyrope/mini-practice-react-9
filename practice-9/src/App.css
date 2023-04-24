@@ -3,10 +3,10 @@ body {
 }
 
 .App {
-  display: flex;
+  display: block;
   flex-direction: row;
-  flex-wrap: wrap;
   margin: 10rem auto;
+
   width: 70%;
   height: auto;
   justify-content: center;
@@ -16,4 +16,5 @@ body {
 /* This makes two containers per row as aimed for on April 18 2023 */
 .App div {
   flex: 0 0 33.3333%;
+  overflow: auto;
 }
