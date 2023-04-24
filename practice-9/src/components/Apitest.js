@@ -43,7 +43,7 @@ const Apitest = () => {
 
   useEffect(() => {
     fetchUserData()
-  })
+  }, [])
 
   return (
     <div className="data__card-container">
