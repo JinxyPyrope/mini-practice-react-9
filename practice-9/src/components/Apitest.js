@@ -4,6 +4,8 @@ import "./Apitest.css"
 const Apitest = props => {
   const users = props.users
   console.log(props, users)
+
+  
   return (
     <div className="data__card-container">
       {users.map(card => (

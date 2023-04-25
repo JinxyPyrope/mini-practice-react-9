@@ -30,3 +30,8 @@
 .data_card-container__front-end p {
   border: 1px black solid;
 } */
+
+.data_card-container__front-end {
+  border: 1px solid black;
+  margin: auto;
+}
