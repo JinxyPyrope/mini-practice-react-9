@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: lightgreen;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 /* This makes two containers per row as aimed for on April 18 2023 */
-.App div {
+/* .App div {
   flex: 0 0 33.3333%;
   overflow: auto;
-}
+} */ 
