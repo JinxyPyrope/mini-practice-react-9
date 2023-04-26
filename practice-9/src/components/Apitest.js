@@ -13,8 +13,8 @@ const Apitest = props => {
             <img src={card.avatar} alt="test" title="More Information Here" />
           </div>
           <div className="data__container-card__front-end__text">
-            <h4>Testing Title</h4>
-            <p>Testing Text</p>
+            <h4>{card.first_name}</h4>
+            <p>{card.employment.key_skill}</p>
           </div>
         </div>
       ))}
