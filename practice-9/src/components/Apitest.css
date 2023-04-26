@@ -32,13 +32,27 @@
 } */
 
 .data__container {
-  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
   width: 50%;
+  margin: 5rem auto;
   border: 1px black solid;
 }
 
 .data__container-card{
+  max-width: 45%;
+  background-color: whitesmoke;
+  border-radius: 5px;
   border: 1px black solid;
-  width: 50%;
 }
+
+.data__container-card__front-end__image {
+  border: 1px black solid;
+}
+
+.data__container-card__front-end__text {
+  border: 1px black solid;
+  margin-top: 10px ;
+}
+
 
