@@ -5,14 +5,17 @@ const Apitest = props => {
   const users = props.users
   console.log(props, users)
 
-
   return (
     <div className="data__container">
       {users.map(card => (
-        <div className="data__container-card__front-end" key={card.id}>
-          <img src={card.avatar} alt="test" title="More Information Here" />
-          <h4>Testing Title</h4>
-          <p>Testing Text</p>
+        <div className="data__container-card" key={card.id}>
+          <div className="data__container-card__front-end__image">
+            <img src={card.avatar} alt="test" title="More Information Here" />
+          </div>
+          <div className="data__container-card__front-end__text">
+            <h4>Testing Title</h4>
+            <p>Testing Text</p>
+          </div>
         </div>
       ))}
     </div>

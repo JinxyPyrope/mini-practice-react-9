@@ -31,21 +31,14 @@
   border: 1px black solid;
 } */
 
-.data__container div {
-  display: flex;
+.data__container {
+  margin: 5rem auto;
   width: 50%;
-  justify-content: space-between;
   border: 1px black solid;
 }
 
-.data__container-card__front-end img{
+.data__container-card{
   border: 1px black solid;
+  width: 50%;
 }
 
-.data__container-card__front-end h4{
-  border: 1px black solid;
-}
-
-.data__container-card__front-end p{
-  border: 1px black solid;
-}
