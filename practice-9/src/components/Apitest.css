@@ -48,7 +48,12 @@
 }
 
 .data__container-card__front-end__image {
+  display: flex;
   border: 1px black solid;
+}
+
+.data__container-card__front-end__image img {
+  min-width: 0;
 }
 
 .data__container-card__front-end__text {
