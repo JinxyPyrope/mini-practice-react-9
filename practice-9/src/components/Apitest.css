@@ -35,7 +35,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 45%;
+  max-width: 60%;
   margin: 5rem auto;
   border: 1px black solid;
 }
@@ -44,7 +44,7 @@
   max-width: 50%;
   background: whitesmoke;
   border-radius: 5px;
-  margin: 0 0 10px 0;
+  margin: 0 50px 10px 50px;
   border: 1px black solid;
   box-shadow: 0px 0px 15px -3px rgba(143, 137, 143, 0.79);
 }
@@ -65,4 +65,8 @@
 
 .data__container-card__front-end__text h4 {
   margin-bottom: 5px;
+}
+
+.data__container-card__front-end__text p {
+  margin-bottom: 20px;
 }
