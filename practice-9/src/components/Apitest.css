@@ -1,8 +1,8 @@
 .data__container {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
-  max-width: 60%;
+  justify-content: space-between;
+  max-width: 50%;
   margin: 1rem auto;
   border: 1px black solid;
 }
@@ -11,7 +11,6 @@
   max-width: 50%;
   background: whitesmoke;
   border-radius: 5px;
-  margin: 0 25px 10px 0px;
   border: 1px black solid;
   box-shadow: 0px 0px 15px -3px rgba(143, 137, 143, 0.79);
 }
