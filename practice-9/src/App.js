@@ -17,7 +17,10 @@ function App() {
 
   return (
     <div className="App">
-      <button>Fetch Random</button>
+      <div className="btn-container">
+        <button>Fetch Random</button>
+      </div>
+
       <Apitest users={users} />
     </div>
   )
