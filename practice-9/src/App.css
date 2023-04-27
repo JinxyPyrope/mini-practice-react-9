@@ -11,7 +11,6 @@ body {
 
 .btn-container {
   margin: 5rem auto;
-  border: 1px black solid;
   max-width: fit-content;
 }
 
@@ -23,14 +22,19 @@ body {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4caf50;
+  background-color: #e3242b;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 9px #bc544b;
+  width: 300px;
 }
 
 .btn-container button:hover {
-  background-color: #3e8e41;
+  background-color: #b90e0a;
 }
 
-
+.btn-container button:active {
+  background-color: #e3242b;
+  box-shadow: 0 5px #bc544b;
+  transform: translateY(4px);
+}
