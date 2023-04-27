@@ -1,24 +1,3 @@
-/* body {
-  background-color: lightgreen;
-}
-
-.App {
-  display: block;
-  flex-direction: row;
-  margin: 10rem auto;
-
-  width: 70%;
-  height: auto;
-  justify-content: center;
-  border: 5px black solid;
-}
-
-/* This makes two containers per row as aimed for on April 18 2023 */
-/* .App div {
-  flex: 0 0 33.3333%;
-  overflow: auto;
-} */ 
-
 * {
   box-sizing: border-box;
   padding: 0;

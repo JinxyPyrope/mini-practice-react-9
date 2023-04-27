@@ -1,36 +1,3 @@
-/* .data__card-container {
-  display: block;
-  flex-direction: column;
-  max-width: 30%;
-  height: 25rem;
-  padding: 10px;
-  margin: 20px;
-  border: 1px black solid;
-  border-radius: 10px;
-  overflow: auto;
-}
-
-.data_card-container__front-end {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 1px black solid;
-}
-
-.data_card-container__front-end img {
-  margin: 8rem auto;
-  border: 1px black solid;
-  max-width: auto;
-}
-
-.data_card-container__front-end h4 {
-  border: 1px black solid;
-}
-
-.data_card-container__front-end p {
-  border: 1px black solid;
-} */
-
 .data__container {
   display: flex;
   flex-wrap: wrap;
