@@ -5,8 +5,6 @@ import React, { useState, useEffect } from "react"
 function App() {
   const [users, setUsers] = useState([])
 
-  const handleRandom = () => {}
-
   useEffect(() => {
     fetch("https://random-data-api.com/api/users/random_user?size=10")
       .then(res => {
@@ -17,10 +15,11 @@ function App() {
       })
   }, [])
 
+
   return (
     <div className="App">
       <div className="btn-container">
-        <button onClick={handleRandom}>Fetch Random</button>
+        <button>Fetch Random</button>
       </div>
 
       <Apitest users={users} />
