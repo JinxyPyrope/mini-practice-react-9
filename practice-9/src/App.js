@@ -5,9 +5,7 @@ import React, { useState, useEffect } from "react"
 function App() {
   const [users, setUsers] = useState([])
 
-  const handleRandom = () => {
-    alert("Button Works")
-  }
+  const handleRandom = () => {}
 
   useEffect(() => {
     fetch("https://random-data-api.com/api/users/random_user?size=10")
