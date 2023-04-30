@@ -18,11 +18,13 @@ const Apitest = props => {
               <p>{card.employment.key_skill}</p>
             </div>
           </div>
-          <div className="data_card-container__back-end"></div>
+          <div className="data__card-container__back-end">
+            <h4>More Information Here</h4>
+          </div>
         </div>
       ))}
     </div>
-    // {/* <div className="data_card-container__back-end"></div> */}
+ 
   )
 }
 

@@ -15,6 +15,12 @@
   box-shadow: 0px 0px 15px -3px rgba(143, 137, 143, 0.79);
 }
 
+.data__container-card__front-end:hover {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
+}
+
 /*Image section and its flexed through making it flex and min-width being 0 */
 .data__container-card__front-end__image {
   display: flex;
@@ -35,4 +41,8 @@
 
 .data__container-card__front-end__text p {
   margin-bottom: 20px;
+}
+
+.data__container-card__back-end {
+  text-align: center;
 }
