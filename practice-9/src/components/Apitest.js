@@ -24,7 +24,6 @@ const Apitest = props => {
         </div>
       ))}
     </div>
- 
   )
 }
 
