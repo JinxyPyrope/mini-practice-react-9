@@ -5,6 +5,22 @@
   border: solid 1px;
 }
 
+.data__container-card {
+  height: 100%;
+  width: 100%;
+  border: 1px solid;
+}
+
+.data__container-card__front-end,
+.data__card-container__back-end {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+}
+.data__container-card__front-end {
+}
+
 /* .data__container-card {
   max-width: 50%;
   background: whitesmoke;
@@ -23,13 +39,10 @@
   position: absolute;
 } */
 
-
-
 /* .data__container-card:hover {
   transform-style: preserve-3d;
   transform: rotateY(180deg);
 } */
-
 
 /*Image section and its flexed through making it flex and min-width being 0 */
 /* .data__container-card__front-end__image {
@@ -52,7 +65,3 @@
 .data__container-card__front-end__text p {
   margin-bottom: 20px;
 } */
-
-
-
-
