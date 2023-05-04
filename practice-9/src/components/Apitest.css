@@ -1,7 +1,6 @@
 .data__container {
   width: 350px;
-  height: 1000px;
-  max-height: fit-content;
+  height: 375px;
   border: solid 1px;
 }
 
