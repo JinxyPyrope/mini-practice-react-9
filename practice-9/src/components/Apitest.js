@@ -10,13 +10,8 @@ const Apitest = props => {
       {users.map(card => (
         <div className="data__container-card" key={card.id}>
           <div className="data__container-card__front-end">
-            <div className="data__container-card__front-end__image">
-              <img src={card.avatar} alt="test" title="More Information Here" />
-            </div>
-            <div className="data__container-card__front-end__text">
-              <h4>{card.first_name}</h4>
-              <p>{card.employment.key_skill}</p>
-            </div>
+            <img src={card.avatar} alt="test" title="More Information Here" />
+           
           </div>
           <div className="data__card-container__back-end">
             <h4>More Information Here</h4>
