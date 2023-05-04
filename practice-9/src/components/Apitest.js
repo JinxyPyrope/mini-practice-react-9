@@ -11,10 +11,9 @@ const Apitest = props => {
         <div className="data__container-card" key={card.id}>
           <div className="data__container-card__front-end">
             <img src={card.avatar} alt="test" title="More Information Here" />
-           
           </div>
           <div className="data__card-container__back-end">
-            <h4>More Information Here</h4>
+            <h4>Back of the card</h4>
           </div>
         </div>
       ))}

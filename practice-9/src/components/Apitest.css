@@ -1,11 +1,8 @@
 .data__container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 50%;
-  margin: 1rem auto;
-  border: 5px solid;
-
+  width: 350px;
+  max-height: fit-content;
+  margin: 1px auto;
+  border: solid 1px;
 }
 
 /* .data__container-card {
