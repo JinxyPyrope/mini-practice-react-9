@@ -6,11 +6,14 @@
 }
 
 body {
+  display: flex;
+  height: 100vh;
   background-color: lightgreen;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-container {
-  margin: 5rem auto;
   max-width: fit-content;
 }
 
