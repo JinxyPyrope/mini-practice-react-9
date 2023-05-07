@@ -13,6 +13,7 @@
   border-radius: 2rem;
   transition: transform 1500ms;
   transform-style: preserve-3d;
+  perspective: 800px;
 }
 
 .data__container-card:hover {
@@ -30,8 +31,13 @@
 }
 
 .data__card-container__back-end {
+  display: flex;
+  flex-direction: column;
   background-color: aliceblue;
   transform: rotateY(180deg);
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 }
 /* .data__container-card {
   max-width: 50%;
