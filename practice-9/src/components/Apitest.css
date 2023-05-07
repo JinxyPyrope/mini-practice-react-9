@@ -9,6 +9,14 @@
   width: 100%;
   border: 1px solid;
   position: relative;
+  background-color: aliceblue;
+  border-radius: 2rem;
+  transition: transform 1500ms;
+}
+
+.data__container-card:hover {
+  cursor: pointer;
+  transform: rotateY(180deg);
 }
 
 .data__container-card__front-end,
@@ -16,12 +24,13 @@
   height: 100%;
   width: 100%;
   border-radius: 2rem;
-  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
-  /* position: absolute; */
+  position: absolute;
+  backface-visibility: hidden;
 }
 
 .data__card-container__back-end {
-  border: solid 1px;
+  background-color: aqua;
+  transform: rotateY(180deg);
 }
 /* .data__container-card {
   max-width: 50%;
