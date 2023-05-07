@@ -15,6 +15,7 @@ body {
 
 .btn-container {
   max-width: fit-content;
+  margin: 5rem auto ;
 }
 
 .btn-container button {
